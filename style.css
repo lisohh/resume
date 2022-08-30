@@ -42,6 +42,118 @@ p {
   font-size: 16px;
   line-height: 1.5;
   color: #2b292d;
-
   letter-spacing: -0.01em;
+}
+
+.fill-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 48px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  color: #fff;
+  background-color: #1cac89;
+  transition: opacity 300ms ease-in-out;
+}
+
+.fill-button.inverted {
+  color: #1cac89;
+  background-color: #fff;
+}
+
+.fill-button:hover {
+  opacity: 0.5;
+}
+
+/* Landing */
+.landing {
+  background: conic-gradient(
+    from 180deg at 50% 83.45%,
+    #b8ffc4 0deg,
+    #8ddde7 360deg
+  );
+  text-align: center;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-title {
+  margin-bottom: 28px;
+  font-size: 36px;
+  color: #2b292d;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+
+.landing-desc {
+  margin-bottom: 20px;
+}
+
+.landing .button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing .button-group .fill-button:first-child {
+  margin-right: 8px;
+}
+
+/* >_ 768px (Desktop) */
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 22px;
+    line-height: 1.3636363636;
+  }
+
+  .fill-button {
+    width: 160px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.55555;
+  }
+
+  /* Landing */
+  .landing-content {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .landing-title {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+    letter-spacing: -0.05em;
+  }
+
+  .landing-desc {
+    margin-bottom: 32px;
+    font-size: 22px;
+    line-height: 1.45454545;
+    letter-spacing: -0.01em;
+  }
+
+  .landing .button-group .fill-button:first-child {
+    margin-right: 16px;
+  }
+}
+
+/* Custom Grid System - Fix container width */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 960px !important;
+  }
 }
