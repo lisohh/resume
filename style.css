@@ -70,6 +70,26 @@ p {
   opacity: 0.5;
 }
 
+.section {
+  padding: 80px 0;
+}
+
+.section-category {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.section-title {
+  margin-bottom: 24px;
+  font-size: 34px;
+  line-height: 1.588;
+  letter-spacing: -0.04em;
+  color: #2b292d;
+}
+
 /* Landing */
 .landing {
   background: conic-gradient(
@@ -122,7 +142,7 @@ p {
   margin-bottom: 32px;
   font-size: 22px;
   line-height: 1.363636;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
 }
 
 .introduction-desc {
@@ -130,6 +150,51 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: -0.01em;
+}
+
+/* Project */
+.project .section-category {
+  color: #1cac89;
+}
+.project .section-desc {
+  margin-bottom: 26px;
+}
+
+.project-card {
+  margin: 0 auto 36px;
+  display: block;
+  width: 160px;
+  height: 160px;
+  padding: 26px 0 14px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.project-card strong {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #2b292d;
+}
+
+.project-card img {
+  display: block;
+  width: auto;
+  height: 80px;
+  margin: 0 auto 16px;
+}
+
+.project .section-detail-desc{
+    font-size: 15px;
+    line-height: 1.4666;
+    letter-spacing: -0.01em;
+}
+
+.project .section-detail-desc:first-child {
+  margin-bottom: 40px;
 }
 
 /* >_ 768px (Desktop) */
@@ -144,6 +209,23 @@ p {
     height: 56px;
     font-size: 18px;
     line-height: 1.55555;
+  }
+
+  .section {
+    padding: 80px 0 96px 0;
+  }
+
+  .section-category {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 1.090909;
+    letter-spacing: -0.01em;
+  }
+
+  .section-title {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 1;
   }
 
   /* Landing */
@@ -190,6 +272,43 @@ p {
     font-weight: 400;
     line-height: 1.45;
     letter-spacing: -0.01em;
+  }
+
+  /* Project */
+  .project {
+    text-align: center;
+  }
+
+  .project-card {
+    margin: 0 auto 24px;
+    display: block;
+    width: 450px;
+    height:450px;
+    padding: 26px 0 14px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: none;
+  }
+
+  .project-card img {
+    display: block;
+    width: auto;
+    height: 426px;
+    margin: 0 auto;
+  }
+
+  .project-card strong{
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.04em;
+  }
+
+  .project .section-detail-desc{
+    font-size: 18px;
+    line-height: 1.222;
+}
+  
   }
 }
 
