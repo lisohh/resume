@@ -83,7 +83,7 @@ p {
 }
 
 .section-title {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 34px;
   line-height: 1.588;
   letter-spacing: -0.04em;
@@ -109,7 +109,7 @@ p {
 }
 
 .landing-title {
-  margin-bottom: 28px;
+  margin-bottom: 32px;
   font-size: 36px;
   color: #2b292d;
   font-weight: 700;
@@ -139,7 +139,7 @@ p {
 }
 
 .introduction-title {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   font-size: 22px;
   line-height: 1.363636;
   letter-spacing: -0.03em;
@@ -156,6 +156,19 @@ p {
 .project .section-category {
   color: #1cac89;
 }
+
+.detail {
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #5f5e61;
+  letter-spacing: -0.01em;
+}
+
+.job.detail {
+  margin-bottom: 16px;
+}
+
 .project .section-desc {
   margin-bottom: 26px;
 }
@@ -175,7 +188,7 @@ p {
 }
 
 .project-card:hover {
-  background-color: #1cac89;
+  background-color: #c9db42;
 }
 
 .project-card strong {
@@ -284,6 +297,19 @@ p {
     text-align: center;
   }
 
+  .detail {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #7b787f;
+    letter-spacing: -0.01em;
+  }
+
+  .job.detail {
+    margin-bottom: 28px;
+  }
+
   .project-card {
     margin: 0 auto 24px;
     display: block;
@@ -297,13 +323,13 @@ p {
   }
 
   .card {
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
 
   .project-card img {
     display: block;
     width: auto;
-    height: 426px;
+    height: 360px;
     margin: 0 auto;
   }
 
@@ -316,6 +342,12 @@ p {
   .project .section-detail-desc {
     font-size: 18px;
     line-height: 1.4;
+  }
+
+  .project .section-desc {
+    font-size: 20px;
+    line-height: 1.466;
+    letter-spacing: -0.01em;
   }
 }
 
