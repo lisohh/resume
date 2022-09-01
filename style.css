@@ -188,7 +188,7 @@ p {
 }
 
 .project-card:hover {
-  background-color: #c9db42;
+  background-color: #b8ffc4;
 }
 
 .project-card strong {
@@ -213,6 +213,68 @@ p {
 
 .project .section-detail-desc:first-child {
   margin-bottom: 40px;
+}
+
+/* experience */
+.experience .section-category {
+  color: #1c9eac;
+}
+
+.experience-card {
+  margin: 0 auto 36px;
+  display: block;
+  width: 160px;
+  height: 160px;
+  padding: 26px 0 14px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  transition: background-color 500ms ease-in-out;
+}
+
+.experience-card:hover {
+  background-color: #8ddde7;
+}
+
+.experience-card img {
+  display: block;
+  width: auto;
+  height: 80px;
+  margin: 0 auto 16px;
+}
+
+.experience-card strong {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #2b292d;
+}
+
+.experience .section-desc {
+  margin-bottom: 20px;
+}
+
+.experience .section-detail-desc {
+  font-size: 15px;
+  line-height: 1.4666;
+  letter-spacing: -0.01em;
+}
+
+.experience .section-detail-desc:first-child {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f4f5f7;
+  padding: 20px 0;
+}
+
+.footer-link {
+  font-size: 16px;
+  padding-right: 16px;
 }
 
 /* >_ 768px (Desktop) */
@@ -327,13 +389,17 @@ p {
   }
 
   .project-card img {
-    display: block;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
     width: auto;
-    height: 360px;
-    margin: 0 auto;
+    height: 300px;
   }
 
   .project-card strong {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
     font-size: 24px;
     line-height: 1.5;
     letter-spacing: -0.04em;
@@ -348,6 +414,50 @@ p {
     font-size: 20px;
     line-height: 1.466;
     letter-spacing: -0.01em;
+  }
+
+  /* experience */
+
+  .experience-card {
+    margin: 120px 20px 36px 0;
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 26px 0 14px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    transition: background-color 500ms ease-in-out;
+  }
+
+  .experience-card img {
+    display: block;
+    width: auto;
+    height: 110px;
+    margin: 0 auto 8px;
+  }
+
+  .experience .section-detail-desc {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .experience .section-desc {
+    font-size: 20px;
+    line-height: 1.466;
+    letter-spacing: -0.01em;
+  }
+
+  /* Footer */
+  footer {
+    padding: 40px 0;
+  }
+
+  .footer-link {
+    font-size: 18px;
+    padding-right: 16px;
   }
 }
 
