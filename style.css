@@ -229,6 +229,7 @@ p {
   padding: 0 12px;
   background-color: #f4f5f7;
 }
+
 .experience .section-category {
   padding-top: 60px;
   color: #1c9eac;
@@ -307,8 +308,9 @@ p {
   padding-top: 60px;
   color: #1cac89;
 }
-.section-title.skill {
-  margin-top: 20px;
+
+.section-title.skilltitle.last {
+  margin-top: 40px;
 }
 
 .skill .section-detail-desc.last {
@@ -492,6 +494,9 @@ footer {
   }
 
   /* experience */
+  .experience .section-category {
+    padding-top: 0px;
+  }
 
   .experience-card {
     margin: 120px 20px 36px 0;
@@ -546,9 +551,9 @@ footer {
     padding: 40px 0 20px;
   }
 
-  .section-title.skill {
+  .section-title.skilltitle {
     color: #2b292d;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
     font-size: 32px;
     line-height: 1;
   }
@@ -559,7 +564,7 @@ footer {
   }
 
   .skill .section-detail-desc.last {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
   /* Education */
@@ -569,7 +574,7 @@ footer {
 
   .section-title.edu {
     color: #2b292d;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
     font-size: 32px;
     line-height: 1;
   }
@@ -584,7 +589,7 @@ footer {
   }
 
   .education .section-detail-desc.last {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
   /* Footer */
